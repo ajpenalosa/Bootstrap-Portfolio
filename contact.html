@@ -4,75 +4,108 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
-	<title>AJ Penalosa - Contact</title>
+	<title>AJ Penalosa - About</title>
 	
 	<!-- Font Awesome -->
-	<link rel="stylesheet" href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
+    
+    <!-- Bootstrap v3.3.7 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	
 	<!-- Styles -->
-	<link href="assets/css/reset.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
 
-    <!-- Changes body class from "preload" to "contact" -->
-    <script>
-        setTimeout(function(){
-        document.body.className="contact";
-        },500);
-    </script>
 </head>
 
-<body class="preload">
-        
-    <header class="main-header clearfix">
+<body>
+
+    <div class="wrapper">
+
+        <header class="main-header clearfix">
+
+            <div class="container">
+
+                <!-- Fixed navbar -->
+                <nav class="main-nav navbar navbar-default navbar-right">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div id="navbar" class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav">
+                            <li><a href="index.html">About</a></li>
+                            <li><a href="portfolio.html">Portfolio</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div><!--/.nav-collapse -->
+                </nav>
+                
+                <a class="logo" href="index.html">AJ Penalosa</a>
+                
+            </div> <!-- / container -->
+        </header> <!-- /main-header -->
+
         <div class="container">
-            <a href="index.html" class="logo">AJ Penalosa</a>
-            <nav class="main-nav">
-                <ul>
-                    <li><a href="index.html">About</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav> <!-- /main-nav -->
-        </div> <!-- /container -->
-    </header> <!-- /main-header -->
-
-    <div class="container clearfix">
-
-        <section class="main-content">
-
-            <h1 class="page-title">Contact</h1>
-            
-            <form class="contact-form" method="post" action="contact.html">
+                
+            <div class="row">
                     
-                <label>Name</label>
-                <input type="text" class="input" value="" name="name-1" data-required_mark="required" data-field_type="input" data-original_id="name" placeholder="John Smith">
-                
-                <label>Email</label>
-                <input type="text" class="input" value="" name="email-1" data-required_mark="required" data-field_type="email" data-original_id="email" placeholder="example@gmail.com">
-                
-                <label>Message</label>
-                <textarea name="message-1" class="message input" data-required_mark="required" data-field_type="text" data-original_id="message"></textarea>
-                
-                <button type="submit" class="btn-submit">Submit</button>
-            
-            </form> <!-- /contact-form -->
+                    <div class="col-md-8">
 
-        </section> <!-- /main-content -->
-        
-        <aside class="sidebar">
-            <h4>Connect With Me</h4>
-            <div class="social">
-                <a href="https://github.com/ajpenalosa" target="_blank" class="github"><i class="fa fa-github" aria-hidden="true"></i></a>
-                <a href="https://www.linkedin.com/in/ajpenalosa/" target="_blank" class="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                <a href="https://stackoverflow.com/users/8645545/pixelmotives" target="_blank" class="stackoverflow"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
-            </div> <!-- /social -->
-        </aside> <!-- /sidebar -->
+                        <section class="main-content">
+                                
+                            <h1 class="page-title">Contact</h1>
+                            
+                            <form class="contact-form" method="post" action="contact.html">
+                                    
+                                <label>Name</label>
+                                <input type="text" class="input" value="" name="name-1" data-required_mark="required" data-field_type="input" data-original_id="name" placeholder="John Smith">
+                                
+                                <label>Email</label>
+                                <input type="text" class="input" value="" name="email-1" data-required_mark="required" data-field_type="email" data-original_id="email" placeholder="example@gmail.com">
+                                
+                                <label>Message</label>
+                                <textarea name="message-1" class="message input" data-required_mark="required" data-field_type="text" data-original_id="message"></textarea>
+                                
+                                <button type="submit" class="btn-submit">Submit</button>
+                            
+                            </form> <!-- /contact-form -->
 
-    </div> <!-- /container -->
+                        </section> <!-- /main-content -->
+
+                    </div> <!-- /col-md-8 -->
+
+                    <div class="col-md-4">
+
+                        <aside class="sidebar">
+                            <h4>Connect With Me</h4>
+                            <div class="social">
+                                <a href="https://github.com/ajpenalosa" target="_blank" class="github"><i class="fa fa-github" aria-hidden="true"></i></a>
+                                <a href="https://www.linkedin.com/in/ajpenalosa/" target="_blank" class="linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                <a href="https://stackoverflow.com/users/8645545/pixelmotives" target="_blank" class="stackoverflow"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
+                            </div> <!-- /social -->
+                        </aside> <!-- /sidebar -->
+
+                    </div> <!-- /col-md-4 -->
+                                
+            </div> <!-- /row -->
+
+        </div> <!-- /container -->
+
+    </div> <!-- /wrapper -->
     
     <footer class="main-footer">
-        <small>Copyright &copy; 2017 Anthony Penalosa</small>
+        <small>Copyright &copy; 2017 AJ Penalosa</small>
     </footer> <!-- /main-footer -->
+	
+	<!-- Bootstrap core JavaScript
+	================================================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     
 </body>
 </html>

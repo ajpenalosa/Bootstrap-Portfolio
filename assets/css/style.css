@@ -219,6 +219,71 @@ a.stackoverflow {
 }
 
 /* -----------------------------------
+	Contact
+--------------------------------------------------------------------------------------------- */
+
+.contact-form {
+    line-height: 33px;
+    padding-top: 2px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    border: 1px solid #ddd;
+    font-size: 0.778em;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.contact-form input {
+    height: 35px;
+}
+
+.contact-form textarea {
+    height: 200px;
+}
+
+.contact-form input::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:#a9a9a9;
+}
+.contact-form input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:#a9a9a9;
+   opacity:  1;
+}
+.contact-form input::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:#a9a9a9;
+   opacity:  1;
+}
+.contact-form input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color:#a9a9a9;
+}
+.contact-form input::-ms-input-placeholder { /* Microsoft Edge */
+    color:#a9a9a9;
+}
+
+.btn-submit {
+    background-color: #4aaaa5;
+    border: 0;
+    color: #FFF;
+    border-radius: 0;
+    width: 116px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 1em;
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    cursor: pointer;
+}
+
+.btn-submit:hover {
+    background-color: #777;
+}
+
+/* -----------------------------------
 	Responsive CSS
 --------------------------------------------------------------------------------------------- */
 
