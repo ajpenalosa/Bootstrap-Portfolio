@@ -355,6 +355,7 @@ a.stackoverflow {
         overflow: hidden;
         height: 92px;
     }
+
     a.logo {
         float: left;
         width: auto;
@@ -407,11 +408,6 @@ a.stackoverflow {
         margin-right: 25px;
         margin-bottom: 10px;
     }
-}
-
-/* Medium devices (desktops, 992px and up) @screen-md-min */
-@media (min-width: 992px) {
-    
 }
 
 /* Large devices (large desktops, 1200px and up) */
