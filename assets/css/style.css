@@ -222,6 +222,17 @@ a.stackoverflow {
 	Portfolio
 --------------------------------------------------------------------------------------------- */
 
+.portfolio-gallery .row:first-of-type h2 {
+    margin-top: 0;
+}
+
+h2.section-title {
+    background-color: #666;
+    color: #FFF;
+    padding: 10px 0;
+    margin: 80px 0 20px;
+}
+
 .portfolio-gallery {
     width: 100%;
     padding-top: 20px;
